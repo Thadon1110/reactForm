@@ -1,0 +1,133 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+	font-family: inherit;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+}
+
+textarea {
+	resize: vertical;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.mainForm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100%;
+	font-size: 2rem;
+	overflow: hidden;
+}
+
+select,
+button,
+input {
+	font-size: 2rem;
+}
+
+.mainForm i {
+	font-size: 1.4rem;
+}
+
+.mainForm__all {
+	padding: 2rem;
+}
+
+button {
+	padding: 0.6rem 1.6rem;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #000;
+}
+
+.mainForm form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.mainForm form label,
+.mainForm form select,
+.mainForm form button {
+	margin: 0.5rem 0;
+}
+
+.mainForm__list {
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+
+.mainForm__header label {
+	padding: 0 2rem;
+}
+
+.mainForm__header-arrow {
+	cursor: pointer;
+}
+
+.mainForm__content li,
+.mainForm__content label {
+	padding: 0 1rem;
+}
+
+.price-span {
+	margin-left: 1rem;
+}
+
+.mainForm__content li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 1rem 1rem;
+	border-bottom: 1px solid gray;
+}
+
+.mainForm__content li:nth-child(1) {
+	margin-top: 0.5rem;
+}
+
+.mainForm__content-input {
+	margin: 1rem 0;
+}
+
+ul {
+	list-style-type: none;
+}
